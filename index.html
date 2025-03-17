@@ -1,0 +1,49 @@
+<img src="" id="ImagemPokemon">
+<h1 id="Pokemon">...</h1>
+<p>Pokedex <span id="Pokedex">...</span></p>
+
+<!-- Formulário para escolher o Pokémon -->
+<form id="pokemonForm">
+  <label for="pokemonName">Escolha um Pokemon:</label>
+  <input type="text" id="pokemonName" name="pokemonName" placeholder="Ex: snorlax">
+  <button type="submit">Buscar</button>
+</form>
+
+<script>
+  // Função para obter dados do Pokémon
+  async function getData(pokemonName) {
+    const url = `https://pokeapi.co/api/v2/pokemon/${pokemonName.toLowerCase()}`; // A URL agora usa o nome do Pokémon escolhido
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`Resposta com erro: ${response.status}`);
+      }
+
+      const json = await response.json();
+      console.log(json.name);
+      console.log(json.id);
+      console.log(json.sprites.front_default);
+
+      // Atualiza a interface com os dados do Pokémon
+      document.getElementById("Pokemon").innerText = json.name;
+      document.getElementById("Pokedex").innerText = json.id;
+      document.getElementById("ImagemPokemon").src = json.sprites.front_default;
+
+    } catch (error) {
+      console.error(error.message);
+      alert('Pokémon não encontrado. Tente novamente.');
+    }
+  }
+
+  // Evento para capturar o formulário e buscar o Pokémon
+  document.getElementById("pokemonForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Evita o comportamento padrão do formulário (recarregar a página)
+    
+    const pokemonName = document.getElementById("pokemonName").value;
+    if (pokemonName) {
+      getData(pokemonName); // Chama a função com o nome do Pokémon escolhido
+    } else {
+      alert('Por favor, insira o nome de um Pokémon.');
+    }
+  });
+</script>
