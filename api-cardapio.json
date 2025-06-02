@@ -1,0 +1,160 @@
+{
+  "config": {
+    "nome_estabelecimento": "Tia Van Cardápio",
+    "logo_url": "https://img.icons8.com/emoji/48/000000/shortcake.png",
+    "cor_primaria": "#d6400b",
+    "cor_secundaria": "#ff9f1c",
+    "cor_fundo": "#fef4e8",
+    "telefone": "(11) 98765-4321",
+    "endereco": "Rua dos Sabores, 123 - Centro, São Paulo - SP"
+  },
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Doces",
+      "icone": "🍰",
+      "destaque": true
+    },
+    {
+      "id": 2,
+      "nome": "Salgados",
+      "icone": "🍔",
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "nome": "Bebidas",
+      "icone": "🥤",
+      "destaque": true
+    },
+    {
+      "id": 4,
+      "nome": "Promoções",
+      "icone": "🎉",
+      "destaque": true
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Bolo de Chocolate",
+      "descricao": "Delicioso bolo de chocolate com cobertura de ganache",
+      "preco": 23.00,
+      "preco_promocional": 19.90,
+      "categoria_id": 1,
+      "imagem_url": "https://img.icons8.com/fluency/96/chocolate-cake.png",
+      "destaque": true,
+      "ingredientes": ["farinha", "ovos", "chocolate", "açúcar", "manteiga"]
+    },
+    {
+      "id": 2,
+      "nome": "Açaí Especial",
+      "descricao": "Açaí na tigela com granola, banana e mel",
+      "preco": 27.00,
+      "categoria_id": 1,
+      "imagem_url": "https://img.icons8.com/fluency/96/acai-bowl.png",
+      "destaque": true,
+      "ingredientes": ["açaí", "granola", "banana", "mel"]
+    },
+    {
+      "id": 3,
+      "nome": "X-Salada Premium",
+      "descricao": "Hambúrguer artesanal com queijo, alface, tomate e molho especial",
+      "preco": 25.00,
+      "categoria_id": 2,
+      "imagem_url": "https://img.icons8.com/fluency/96/hamburger.png",
+      "destaque": true,
+      "ingredientes": ["pão", "hambúrguer", "queijo", "alface", "tomate"]
+    },
+    {
+      "id": 4,
+      "nome": "Coxinha de Frango",
+      "descricao": "Coxinha de frango com catupiry cremoso",
+      "preco": 20.95,
+      "preco_promocional": 17.90,
+      "categoria_id": 2,
+      "imagem_url": "https://img.icons8.com/fluency/96/coxinha.png",
+      "destaque": true,
+      "ingredientes": ["massa", "frango", "catupiry", "temperos"]
+    },
+    {
+      "id": 5,
+      "nome": "Coca-Cola Lata",
+      "descricao": "Lata 350ml geladinha",
+      "preco": 17.75,
+      "categoria_id": 3,
+      "imagem_url": "https://img.icons8.com/color/96/coca-cola.png",
+      "destaque": false,
+      "ingredientes": []
+    },
+    {
+      "id": 6,
+      "nome": "Suco Natural",
+      "descricao": "Suco natural de laranja ou abacaxi",
+      "preco": 12.50,
+      "categoria_id": 3,
+      "imagem_url": "https://img.icons8.com/fluency/96/orange-juice.png",
+      "destaque": true,
+      "ingredientes": ["fruta natural", "água", "açúcar"]
+    },
+    {
+      "id": 7,
+      "nome": "Brigadeiro Gourmet",
+      "descricao": "Caixa com 6 brigadeiros gourmet",
+      "preco": 18.00,
+      "preco_promocional": 15.00,
+      "categoria_id": 1,
+      "imagem_url": "https://img.icons8.com/fluency/96/chocolate-bar.png",
+      "destaque": true,
+      "ingredientes": ["chocolate", "leite condensado", "chocolate granulado"]
+    },
+    {
+      "id": 8,
+      "nome": "Combo Promocional",
+      "descricao": "X-Salada + Coca-Cola + Sobremesa",
+      "preco": 45.00,
+      "preco_promocional": 35.90,
+      "categoria_id": 4,
+      "imagem_url": "https://img.icons8.com/fluency/96/fast-food.png",
+      "destaque": true,
+      "ingredientes": []
+    }
+  ],
+  "menu": [
+    {
+      "nome": "Início",
+      "icone": "🏠",
+      "url": "/"
+    },
+    {
+      "nome": "Cardápio",
+      "icone": "📋",
+      "url": "/cardapio"
+    },
+    {
+      "nome": "Promoções",
+      "icone": "🎉",
+      "url": "/promocoes"
+    },
+    {
+      "nome": "Sobre Nós",
+      "icone": "ℹ️",
+      "url": "/sobre"
+    },
+    {
+      "nome": "Contato",
+      "icone": "📞",
+      "url": "/contato"
+    }
+  ],
+  "horario_funcionamento": {
+    "segunda_quinta": "10:00 - 22:00",
+    "sexta_sabado": "10:00 - 23:00",
+    "domingo": "12:00 - 20:00"
+  },
+  "redes_sociais": {
+    "instagram": "https://instagram.com/tiavan",
+    "facebook": "https://facebook.com/tiavan",
+    "whatsapp": "https://wa.me/5511987654321"
+  }
+}
