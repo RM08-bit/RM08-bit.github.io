@@ -1,0 +1,262 @@
+{
+  "Ficção Científica": [
+    {
+      "titulo": "Duna",
+      "autor": "Frank Herbert",
+      "categoria": "Ficção Científica",
+      "resumo": "Em um futuro distante, a luta pelo controle do planeta desértico Arrakis envolve política, religião e ecologia.",
+      "ano": 1965,
+      "paginas": 688,
+      "editora": "Chilton Books",
+      "isbn": "9780441172719"
+    },
+    {
+      "titulo": "Neuromancer",
+      "autor": "William Gibson",
+      "categoria": "Ficção Científica",
+      "resumo": "Um hacker é contratado para executar um trabalho de espionagem digital em um mundo cyberpunk.",
+      "ano": 1984,
+      "paginas": 271,
+      "editora": "Ace Books",
+      "isbn": "9780441569595"
+    },
+    {
+      "titulo": "Fundação",
+      "autor": "Isaac Asimov",
+      "categoria": "Ficção Científica",
+      "resumo": "Uma organização científica tenta preservar o conhecimento humano enquanto o Império Galáctico entra em colapso.",
+      "ano": 1951,
+      "paginas": 255,
+      "editora": "Gnome Press",
+      "isbn": "9780553293357"
+    },
+    {
+      "titulo": "O Fim da Infância",
+      "autor": "Arthur C. Clarke",
+      "categoria": "Ficção Científica",
+      "resumo": "Uma raça alienígena pacífica ajuda a humanidade a alcançar a utopia — com um custo inesperado.",
+      "ano": 1953,
+      "paginas": 224,
+      "editora": "Ballantine Books",
+      "isbn": "9780345347954"
+    },
+    {
+      "titulo": "O Jogo do Exterminador",
+      "autor": "Orson Scott Card",
+      "categoria": "Ficção Científica",
+      "resumo": "Uma criança prodígio é treinada para comandar a guerra contra uma raça alienígena.",
+      "ano": 1985,
+      "paginas": 324,
+      "editora": "Tor Books",
+      "isbn": "9780812550702"
+    }
+  ],
+  "Fantasia": [
+    {
+      "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+      "autor": "J.R.R. Tolkien",
+      "categoria": "Fantasia",
+      "resumo": "Um grupo parte em uma jornada para destruir um anel mágico que ameaça o mundo.",
+      "ano": 1954,
+      "paginas": 423,
+      "editora": "Allen & Unwin",
+      "isbn": "9780261103573"
+    },
+    {
+      "titulo": "Harry Potter e a Pedra Filosofal",
+      "autor": "J.K. Rowling",
+      "categoria": "Fantasia",
+      "resumo": "Um garoto órfão descobre que é um bruxo e vai estudar em uma escola de magia.",
+      "ano": 1997,
+      "paginas": 223,
+      "editora": "Bloomsbury",
+      "isbn": "9780747532699"
+    },
+    {
+      "titulo": "Eragon",
+      "autor": "Christopher Paolini",
+      "categoria": "Fantasia",
+      "resumo": "Um jovem encontra um ovo de dragão e é lançado em uma jornada épica.",
+      "ano": 2002,
+      "paginas": 544,
+      "editora": "Knopf",
+      "isbn": "9780375826696"
+    },
+    {
+      "titulo": "Mistborn: O Império Final",
+      "autor": "Brandon Sanderson",
+      "categoria": "Fantasia",
+      "resumo": "Em um mundo onde a cinza cai do céu, uma jovem deve liderar uma revolução contra um império opressor.",
+      "ano": 2006,
+      "paginas": 541,
+      "editora": "Tor Books",
+      "isbn": "9780765311788"
+    },
+    {
+      "titulo": "As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa",
+      "autor": "C.S. Lewis",
+      "categoria": "Fantasia",
+      "resumo": "Quatro crianças entram em um mundo mágico e ajudam a libertar o reino de uma feiticeira malvada.",
+      "ano": 1950,
+      "paginas": 206,
+      "editora": "Geoffrey Bles",
+      "isbn": "9780064471046"
+    }
+  ],
+  "Romance": [
+    {
+      "titulo": "Orgulho e Preconceito",
+      "autor": "Jane Austen",
+      "categoria": "Romance",
+      "resumo": "Elizabeth Bennet enfrenta questões sociais e amorosas na Inglaterra do século XIX.",
+      "ano": 1813,
+      "paginas": 279,
+      "editora": "T. Egerton",
+      "isbn": "9780141439518"
+    },
+    {
+      "titulo": "Jane Eyre",
+      "autor": "Charlotte Brontë",
+      "categoria": "Romance",
+      "resumo": "Uma órfã independente enfrenta desafios emocionais e morais ao encontrar o amor.",
+      "ano": 1847,
+      "paginas": 500,
+      "editora": "Smith, Elder & Co.",
+      "isbn": "9780142437209"
+    },
+    {
+      "titulo": "O Morro dos Ventos Uivantes",
+      "autor": "Emily Brontë",
+      "categoria": "Romance",
+      "resumo": "Uma história intensa de amor e vingança ambientada nos páramos ingleses.",
+      "ano": 1847,
+      "paginas": 416,
+      "editora": "Thomas Cautley Newby",
+      "isbn": "9780141439556"
+    },
+    {
+      "titulo": "A Culpa é das Estrelas",
+      "autor": "John Green",
+      "categoria": "Romance",
+      "resumo": "Dois adolescentes com câncer se apaixonam em meio às dificuldades da doença.",
+      "ano": 2012,
+      "paginas": 313,
+      "editora": "Dutton Books",
+      "isbn": "9780525478812"
+    },
+    {
+      "titulo": "Como Eu Era Antes de Você",
+      "autor": "Jojo Moyes",
+      "categoria": "Romance",
+      "resumo": "Uma cuidadora se envolve emocionalmente com um homem tetraplégico e muda sua visão de vida.",
+      "ano": 2012,
+      "paginas": 480,
+      "editora": "Michael Joseph",
+      "isbn": "9780718157838"
+    }
+  ],
+  "Suspense / Mistério": [
+    {
+      "titulo": "O Código Da Vinci",
+      "autor": "Dan Brown",
+      "categoria": "Suspense / Mistério",
+      "resumo": "Um professor de simbologia investiga um assassinato que revela um segredo milenar.",
+      "ano": 2003,
+      "paginas": 489,
+      "editora": "Doubleday",
+      "isbn": "9780385504201"
+    },
+    {
+      "titulo": "Garota Exemplar",
+      "autor": "Gillian Flynn",
+      "categoria": "Suspense / Mistério",
+      "resumo": "Um marido se torna o principal suspeito do desaparecimento de sua esposa.",
+      "ano": 2012,
+      "paginas": 432,
+      "editora": "Crown Publishing Group",
+      "isbn": "9780307588364"
+    },
+    {
+      "titulo": "Os Homens que Não Amavam as Mulheres",
+      "autor": "Stieg Larsson",
+      "categoria": "Suspense / Mistério",
+      "resumo": "Um jornalista e uma hacker investigam o desaparecimento de uma jovem há 40 anos.",
+      "ano": 2005,
+      "paginas": 672,
+      "editora": "Norstedts Förlag",
+      "isbn": "9780307269751"
+    },
+    {
+      "titulo": "O Silêncio dos Inocentes",
+      "autor": "Thomas Harris",
+      "categoria": "Suspense / Mistério",
+      "resumo": "Uma jovem agente do FBI busca ajuda de um assassino canibal para capturar outro serial killer.",
+      "ano": 1988,
+      "paginas": 367,
+      "editora": "St. Martin's Press",
+      "isbn": "9780312924584"
+    },
+    {
+      "titulo": "Antes de Dormir",
+      "autor": "S.J. Watson",
+      "categoria": "Suspense / Mistério",
+      "resumo": "Uma mulher perde a memória todos os dias ao dormir e começa a registrar o que acontece.",
+      "ano": 2011,
+      "paginas": 360,
+      "editora": "HarperCollins",
+      "isbn": "9780062060556"
+    }
+  ],
+  "Não Ficção": [
+    {
+      "titulo": "Sapiens: Uma Breve História da Humanidade",
+      "autor": "Yuval Noah Harari",
+      "categoria": "Não Ficção",
+      "resumo": "Uma exploração sobre a evolução da espécie humana e como moldamos o mundo atual.",
+      "ano": 2011,
+      "paginas": 443,
+      "editora": "Harvill Secker",
+      "isbn": "9780062316097"
+    },
+    {
+      "titulo": "O Andar do Bêbado",
+      "autor": "Leonard Mlodinow",
+      "categoria": "Não Ficção",
+      "resumo": "Explora o papel do acaso e da aleatoriedade nas decisões do cotidiano.",
+      "ano": 2008,
+      "paginas": 272,
+      "editora": "Pantheon Books",
+      "isbn": "9780307275172"
+    },
+    {
+      "titulo": "A Mente Organizada",
+      "autor": "Daniel Levitin",
+      "categoria": "Não Ficção",
+      "resumo": "Mostra como estruturar melhor a mente e a vida em tempos de sobrecarga de informação.",
+      "ano": 2014,
+      "paginas": 528,
+      "editora": "Dutton",
+      "isbn": "9780525954187"
+    },
+    {
+      "titulo": "Na Natureza Selvagem",
+      "autor": "Jon Krakauer",
+      "categoria": "Não Ficção",
+      "resumo": "A história real de Christopher McCandless, que abandonou tudo para viver isolado no Alasca.",
+      "ano": 1996,
+      "paginas": 224,
+      "editora": "Villard",
+      "isbn": "9780385486804"
+    },
+    {
+      "titulo": "Freakonomics",
+      "autor": "Steven Levitt e Stephen Dubner",
+      "categoria": "Não Ficção",
+      "resumo": "Economia explicada através de questões inusitadas do cotidiano.",
+      "ano": 2005,
+      "paginas": 336,
+      "editora": "William Morrow",
+      "isbn": "9780060731328"
+    }
+  ]
+}
